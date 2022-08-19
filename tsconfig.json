@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./output/",
+    "allowJs": true,
+    "target": "ES2015",
+    "typeRoots": ["node_modules/@types", "./types"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "module": "CommonJS",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["./src/**/*"],
+  "exclude": ["node_modules", "src/fbs"],
+  "files": ["types/global.d.ts"]
+}
